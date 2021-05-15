@@ -5,10 +5,11 @@ We can scan this QR code through webcam/ mobile phone to retrieve the data prese
 if data retrieved in scanner app and data in the csv file mismatches or not present then we can 
 conclude that the license belongs to an un-authorized person
 
-To build this project: 
 1. The Python libraries – pyzbar, PIL, pillow, pyqrcode, opencv-python,tabulate,csv etc. was used in the system. 
 2. Using pyqrcode, QR code were generated with the data. 
 3. IP webcam application was used for scanning purpose.
+4. The data on the QR code was detected and it was checked with the help of a csv file if authorized or not.
+5. If the license is authorized than the other details (phone no. , age, etc.) will be displayed in a tabular form.
 
 Python Libraries Installation:
 1. pip install pillow
