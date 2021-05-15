@@ -11,10 +11,10 @@ To build this project:
 3. IP webcam application was used for scanning purpose.
 
 Python Libraries Installation:
-pip install pillow
-pip install pyqrcode
-pip install pypng
-pip install pyzbar
-pip install PIL
-pip install opencv-python
-pip install csv
+1. pip install pillow
+2. pip install pyqrcode
+3. pip install pypng
+4. pip install pyzbar
+5. pip install PIL
+6. pip install opencv-python
+7. pip install csv
